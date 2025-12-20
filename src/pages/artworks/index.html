@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Art gallery of Sushan Deb - Explore commercial and non-commercial artworks including oil paintings, acrylics, and traditional Indian folk art."
+    />
+    <meta
+      name="keywords"
+      content="art gallery, paintings for sale, Indian art, traditional paintings, contemporary art, art portfolio, buy art online"
+    />
+    <meta property="og:title" content="Art Gallery | Sushan Deb" />
+    <meta
+      property="og:description"
+      content="Explore commercial and non-commercial artworks including oil paintings, acrylics, and traditional Indian folk art."
+    />
+    <meta
+      property="og:image"
+      content="https://sushandeb.vercel.app/images/home.webp"
+    />
+    <meta
+      property="og:url"
+      content="https://sushandeb.vercel.app/pages/artworks/"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Artworks | Sushan Deb</title>
+
+    <link rel="stylesheet" href="/css/shared.css" />
+    <link rel="stylesheet" href="/css/artworks.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="canonical" href="https://sushandeb.vercel.app/pages/artworks/" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Art Gallery",
+        "description": "Collection of artworks by Sushan Deb",
+        "mainEntity": {
+          "@type": "ItemList",
+          "numberOfItems": 10,
+          "itemListElement": []
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://sushandeb.vercel.app"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Artworks",
+            "item": "https://sushandeb.vercel.app/pages/artworks/"
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">Sushan Deb</div>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/pages/artworks/" class="active">Artworks</a></li>
+        <li><a href="/pages/about/">About</a></li>
+        <li><a href="/pages/contact/">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button id="theme-toggle" class="theme-btn">
+          <i class="fas fa-adjust"></i>
+        </button>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+      </div>
+    </nav>
+
+    <main class="portfolio-container">
+      <h1>Art Gallery</h1>
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="non-commercial">
+          Non-Commercial
+        </button>
+      </div>
+      <div class="gallery-grid" id="portfolio-grid"></div>
+    </main>
+
+    <div id="art-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-body">
+          <div class="carousel-container">
+            <button id="prev-btn" class="nav-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <img id="modal-img" src="" alt="" />
+            <button id="next-btn" class="nav-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="art-details">
+            <h3 id="modal-title"></h3>
+            <p class="badge" id="modal-type"></p>
+            <p id="modal-desc"></p>
+            <p><strong>Size:</strong> <span id="modal-size"></span></p>
+            <p><strong>Price:</strong> <span id="modal-price"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/918837212737" target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+      </div>
+      <p>&copy; <span id="year"></span> Sushan Deb. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/js/shared.js"></script>
+    <script type="module" src="/js/artworks.js"></script>
+  </body>
+</html>

@@ -1,0 +1,256 @@
+[
+  {
+    "id": 1,
+    "title": "Azure Ocean Waves",
+    "description": "Oil painting capturing the powerful movement of ocean waves at sunrise.",
+    "size": "30x40 inches",
+    "type": "commercial",
+    "price": "$750",
+    "thumbnail": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1494256997600-768d1e6087a7?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Golden Forest Path",
+    "description": "Autumn forest scene with golden leaves covering a winding path.",
+    "size": "24x36 inches",
+    "type": "commercial",
+    "price": "$650",
+    "thumbnail": "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Misty Mountain Peaks",
+    "description": "Watercolor painting of fog-covered mountains at dawn.",
+    "size": "18x24 inches",
+    "type": "non-commercial",
+    "price": "N/A",
+    "thumbnail": "https://images.unsplash.com/photo-1418985991508-e47386d96a71?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1418985991508-e47386d96a71?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Urban Reflection",
+    "description": "Cityscape reflected in rainy streets at night.",
+    "size": "20x30 inches",
+    "type": "commercial",
+    "price": "$580",
+    "thumbnail": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Desert Sunset",
+    "description": "Vibrant acrylic painting of desert landscape during sunset.",
+    "size": "36x48 inches",
+    "type": "commercial",
+    "price": "$920",
+    "thumbnail": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Abstract Geometry",
+    "description": "Modern abstract composition with geometric shapes.",
+    "size": "24x24 inches",
+    "type": "non-commercial",
+    "price": "N/A",
+    "thumbnail": "https://images.unsplash.com/photo-1543857778-c4a1a569e388?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1543857778-c4a1a569e388?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Floral Symphony",
+    "description": "Detailed botanical illustration of wildflowers.",
+    "size": "16x20 inches",
+    "type": "commercial",
+    "price": "$320",
+    "thumbnail": "https://images.unsplash.com/photo-1518834103328-61d3b8d0e615?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1518834103328-61d3b8d0e615?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1494256997600-768d1e6087a7?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Winter Cabin",
+    "description": "Cozy cabin in snowy forest, oil on canvas.",
+    "size": "22x28 inches",
+    "type": "commercial",
+    "price": "$680",
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1418985991508-e47386d96a71?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Minimalist Portraits",
+    "description": "Series of charcoal portrait sketches.",
+    "size": "14x18 inches",
+    "type": "non-commercial",
+    "price": "N/A",
+    "thumbnail": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Coastal Cliffs",
+    "description": "Dramatic ocean waves crashing against rocky cliffs.",
+    "size": "30x40 inches",
+    "type": "commercial",
+    "price": "$850",
+    "thumbnail": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Morning Mist",
+    "description": "Soft pastel landscape of morning mist in valleys.",
+    "size": "20x24 inches",
+    "type": "non-commercial",
+    "price": "N/A",
+    "thumbnail": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "City Lights",
+    "description": "Nighttime cityscape with glowing skyscrapers.",
+    "size": "24x36 inches",
+    "type": "commercial",
+    "price": "$720",
+    "thumbnail": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Tropical Paradise",
+    "description": "Vibrant painting of tropical beach with palm trees.",
+    "size": "28x36 inches",
+    "type": "commercial",
+    "price": "$780",
+    "thumbnail": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Monochrome Study",
+    "description": "Black and white architectural photography.",
+    "size": "16x20 inches",
+    "type": "non-commercial",
+    "price": "N/A",
+    "thumbnail": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Mountain Lake",
+    "description": "Serene alpine lake with crystal clear reflections.",
+    "size": "30x40 inches",
+    "type": "commercial",
+    "price": "$890",
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Industrial Abstract",
+    "description": "Mixed media exploring industrial textures.",
+    "size": "24x30 inches",
+    "type": "non-commercial",
+    "price": "N/A",
+    "thumbnail": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1541961017774-22349e4a1262?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Sunflower Fields",
+    "description": "Expansive field of sunflowers under blue sky.",
+    "size": "36x48 inches",
+    "type": "commercial",
+    "price": "$950",
+    "thumbnail": "https://images.unsplash.com/photo-1494256997600-768d1e6087a7?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1494256997600-768d1e6087a7?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Ceramic Vessels",
+    "description": "Handcrafted pottery collection.",
+    "size": "Various",
+    "type": "non-commercial",
+    "price": "N/A",
+    "thumbnail": "https://images.unsplash.com/photo-1581655353656-45dd6d63e5c8?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1581655353656-45dd6d63e5c8?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Northern Lights",
+    "description": "Aurora borealis over frozen landscape.",
+    "size": "30x40 inches",
+    "type": "commercial",
+    "price": "$1,100",
+    "thumbnail": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Zen Garden",
+    "description": "Minimalist Japanese garden composition.",
+    "size": "20x24 inches",
+    "type": "commercial",
+    "price": "$420",
+    "thumbnail": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1470114716159-e389f8712fda?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=800&auto=format&fit=crop"
+    ]
+  }
+]

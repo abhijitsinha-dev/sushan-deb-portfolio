@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "icon": "fas fa-graduation-cap",
+    "title": "B.V.A (Honours)",
+    "description": "Govt. College of Art & Craft, Agartala (2025)",
+    "detail": "1st Division (CGPA 6.26)"
+  },
+  {
+    "id": 2,
+    "icon": "fas fa-laptop-code",
+    "title": "Diploma in Computer Application",
+    "description": "CBCE (2019)",
+    "detail": "Percentage: 73%"
+  },
+  {
+    "id": 3,
+    "icon": "fas fa-palette",
+    "title": "Workshop Facilitator",
+    "description": "Community Art Programs",
+    "detail": "Led Traditional Bengali Folk Art workshops"
+  }
+]

@@ -1,0 +1,74 @@
+/* About page specific styles */
+.about-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 10%;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-profile {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-profile img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+  flex: 2;
+  min-width: 300px;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--accent-color);
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.skills-list h3 {
+  margin-bottom: 10px;
+  color: var(--accent-color);
+}
+
+.skills-list ul {
+  list-style: inside square;
+}
+
+.skills-list li {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding: 2rem 5%;
+    align-items: center;
+  }
+
+  .about-content {
+    width: 100%;
+    text-align: left;
+    min-width: 100%;
+  }
+
+  .about-profile img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 2rem;
+  }
+}

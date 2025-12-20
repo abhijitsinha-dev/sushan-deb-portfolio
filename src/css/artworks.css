@@ -1,0 +1,60 @@
+/* Artworks page specific styles */
+.portfolio-container {
+  padding: 4rem 5%;
+  flex: 1;
+}
+
+.portfolio-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--accent-color);
+  font-size: 2.5rem;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  border: 2px solid var(--accent-color);
+  background: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .filter-container {
+    gap: 8px;
+  }
+
+  .filter-btn {
+    font-size: 0.9rem;
+  }
+
+  .gallery-grid {
+    gap: 8px;
+  }
+
+  #portfolio-grid .art-overlay h3 {
+    font-size: 0.7rem;
+  }
+
+  #portfolio-grid .art-overlay .art-type {
+    font-size: 0.6rem;
+    padding: 1px 5px;
+  }
+}
